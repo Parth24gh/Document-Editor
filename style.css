@@ -1,0 +1,132 @@
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: fixed linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 40%, rgba(9, 0, 173, 0.3) 80%, rgba(9, 0, 173, 0.1) 100%);
+    color: aliceblue;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    color: rgb(151, 148, 198);
+}
+h3{
+    color: rgb(79, 76, 118);
+    /*
+    -webkit-filter: invert(100%);
+    filter: invert(70%);
+    */
+}
+
+.btn:hover {
+    background-color: rgb(243, 255, 163);
+    transition: .3s;
+}
+
+#create-acc {
+    font-size: 20px;
+}
+
+.create-control {
+    width: 100%;
+    font-size: 17px;
+    padding: 10px;
+}
+
+#create-btn {
+    text-align: center;
+
+}
+
+#create-btn input {
+    font-size: 20px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+}
+
+#create-acc-form {
+    display: none;
+}
+
+#myform {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#instant {
+    font-size: 20px;
+}
+
+#info a {
+    color: darkred;
+    text-decoration: underline;
+}
+
+.final {
+    color: black;
+    padding-right: 3px;
+}
+
+.interim {
+    color: gray;
+}
+
+#results {
+    background-color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #8d8d8d;
+    padding: 15px;
+    text-align: left;
+    min-height: 150px;
+    margin: 0 0 20px 0;
+    
+}
+
+#start_button {
+    border: 0;
+    background-color: rgb(211, 211, 211);
+    padding: 0;
+    cursor: pointer;
+}
+
+#start_img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-primary {
+    width: 100px;
+    margin: auto;
+}
+
+select {
+    color: black;
+    padding: 5px 5px;
+}
+
+.flex{
+    display: flex;
+}
+
+.middle{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media screen and (max-width: 767px) {
+    #select_dialect {
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    select {
+        margin-right: 10px;
+    }
+}
