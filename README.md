@@ -1,10 +1,1 @@
-ONLINE NOTEPAD (PHP)
-=============
-
-
-#### Development environment
-Apache + PHP (5,7) + MySQL server version (5+) + Bootstrap
-
-#### Admin default password
-Default password : onlinenote
-
+Text editing solution with Isolated users. Speech-to-text functionality, local text file import for editing, and downloadable notes with Rich Text Format. Features like Instant note for real-time note taking, which can later be saved by logging in.
